@@ -123,6 +123,5 @@ so if the codebase you submitted clears a very basic decent ad-hoc looking crite
 * Infrastructure setup if any
 * **Performance** 
 
-### Submission
-Please package the codebase and any other related resources or links as an archive and send it over to us via email.
+
 
