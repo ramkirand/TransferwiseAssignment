@@ -1,0 +1,32 @@
+package KieRule;
+import com.transferwise.model.Customer;
+
+rule "Transaction_Type_ECOM"
+when amount < 2.5
+  	then
+     rewardPoint = 0.0;
+end
+when amount < 5
+	then
+	rewardPoint = 1;
+end
+	
+when amount < 10
+	then
+	rewardPoint = 2;
+end
+
+when amount < 100
+	then
+	rewardPoint = 3;
+end		
+	
+when amount < 300
+	then
+	rewardPoint =  0.07 * amount;
+end
+
+when amount < 1000
+	then
+	rewardPoint =  0.1 * amount;
+end
